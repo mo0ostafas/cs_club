@@ -3,7 +3,7 @@
     "heads": [
       {
         "name": "Mostafa Okasha",
-        "img": "h783425.jpg",
+        "img": "h783425-min.jpg",
         "role": "Co-President",
         "social": {
           "facebook": "https://www.facebook.com/mostafa.ali.2382",
@@ -12,7 +12,7 @@
       },
       {
         "name": "Marwan Salem",
-        "img": "h534894.jpg",
+        "img": "h534894-min.jpg",
         "role": "Co-President",
         "social": {
           "facebook": "",
@@ -21,7 +21,7 @@
       },
       {
         "name": "Hatem Ali",
-        "img": "h024396.jpg",
+        "img": "h024396-min.jpg",
         "role": "Vice President",
         "social": {
           "facebook": "",
@@ -30,7 +30,7 @@
       },
       {
         "name": "Seba Embaby",
-        "img": "h424738.jpg",
+        "img": "h424738-min.jpg",
         "role": "Head of HR",
         "social": {
           "facebook": "",
@@ -39,7 +39,7 @@
       },
       {
         "name": "Abdullah Mohamed",
-        "img": "h403230.jpg",
+        "img": "h403230-min.jpg",
         "role": "Project Manager",
         "social": {
           "facebook": "",
@@ -48,7 +48,7 @@
       },
       {
         "name": "Habiba Ehab",
-        "img": "h346347.jpg",
+        "img": "h346347-min.jpg",
         "role": "Co-Head PR",
         "social": {
           "facebook": "",
@@ -57,7 +57,7 @@
       },
       {
         "name": "Hedaya Aboalhassan",
-        "img": "h043219.jpg",
+        "img": "h043219-min.jpg",
         "role": "Co-Head PR",
         "social": {
           "facebook": "",
@@ -66,7 +66,7 @@
       },
       {
         "name": "Rana Sakr",
-        "img": "h547235.jpg",
+        "img": "h547235-min.jpg",
         "role": "Vice Head Marketing",
         "social": {
           "facebook": "",
@@ -75,7 +75,7 @@
       },
       {
         "name": "Marwan Nabil",
-        "img": "h432031.jpg",
+        "img": "h432031-min.jpg",
         "role": "Head of Marketing",
         "social": {
           "facebook": "",
@@ -84,7 +84,7 @@
       },
       {
         "name": "Nada Mohammed",
-        "img": "h076834.jpg",
+        "img": "h076834-min.jpg",
         "role": "Head of Content Writing",
         "social": {
           "facebook": "",
@@ -96,7 +96,7 @@
     "instructors": [
       {
         "name": "Abdelrahman Tarek",
-        "img": "i047893.jpg",
+        "img": "i047893-min.jpg",
         "role": "Fundamentals of Programming",
         "social": {
           "facebook": "",
@@ -108,7 +108,7 @@
       },
       {
         "name": "Ahmed Saber",
-        "img": "i034869.jpg",
+        "img": "i034869-min.jpg",
         "role": "Fundamentals of Programming",
         "social": {
           "facebook": "",
@@ -120,7 +120,7 @@
       },
       {
         "name": "Rokaya Mohammad",
-        "img": "i046949.jpg",
+        "img": "i046949-min.jpg",
         "role": "Fundamentals of Programming",
         "social": {
           "facebook": "",
@@ -132,7 +132,7 @@
       },
       {
         "name": "Fathy Elghoneimy",
-        "img": "i935654.jpg",
+        "img": "i935654-min.jpg",
         "role": "AI",
         "social": {
           "facebook": "",
@@ -144,7 +144,7 @@
       },
       {
         "name": "Mohamed Beder",
-        "img": "i963478.jpeg",
+        "img": "i963478-min.jpeg",
         "role": "AI",
         "social": {
           "facebook": "",
@@ -156,7 +156,7 @@
       },
       {
         "name": "Mohamed Beder",
-        "img": "i924789.jpg",
+        "img": "i924789-min.jpg",
         "role": "AI",
         "social": {
           "facebook": "",
@@ -168,7 +168,7 @@
       },
       {
         "name": "Moustafa Yasser",
-        "img": "i265464.jpg",
+        "img": "i265464-min.jpg",
         "role": "Web",
         "social": {
           "facebook": "https://www.facebook.com/mo0ostafas",
