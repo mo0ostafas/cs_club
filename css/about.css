@@ -1,0 +1,59 @@
+/**************** about ****************/
+section.about h2 {
+  margin-top: 50px;
+  word-spacing: -5px;
+}
+
+section.about h2 + p {
+  line-height: 1.4;
+}
+
+
+/**************** team ****************/
+section.team h3 {
+  margin-block: 30px 15px;
+  text-align: center;
+}
+
+section.team .swiper {
+  text-align: center;
+}
+
+section.team .member-card {
+  display: grid;
+  grid-template-rows: 200px auto;
+}
+
+section.team img {
+  max-width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+section.team .member-info {
+  padding: 30px;
+}
+
+section.team .member-info span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+section.team .member-info span.member-name {
+  font-weight: 700;
+  color: var(--prm-clr-dark-indigo);
+}
+
+section.team .member-info span.member-role {
+  font-size: 0.8em;
+}
+
+section.team .member-info ul.member-social-accounts {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+section.team .member-info ul.member-social-accounts a {
+  color: var(--prm-clr-electric-blue);
+}
