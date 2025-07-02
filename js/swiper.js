@@ -5,7 +5,7 @@ const mentors = [];
 
 const getMembers = async () => {
   try {
-    const res = await fetch("../db.json");
+    const res = await fetch("db.json");
     
     if (!res.ok) {
       throw new Error("Cannot fetch JSON file");
