@@ -1,0 +1,135 @@
+/**************** tracks ****************/
+section.tracks {
+  padding: 100px;
+}
+
+section.tracks h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#tracks-wrapper {
+  width: fit-content;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  counter-reset: count;
+}
+
+#tracks-wrapper .track-card {
+  background: var(--background-gradient);
+  max-width: 500px;
+  overflow-y: auto;
+  color: var(--prm-clr-dark-indigo);
+  padding: 25px;
+  border-radius: 25px;
+  position: relative;
+  border: 1px solid var(--prm-clr-dark-indigo);
+  box-shadow: 0 -4px 10px var(--bg-clr-indigo);
+  transition: 0.3s;
+}
+
+#tracks-wrapper .track-card:not(:first-of-type) {
+  margin-top: -180px;
+}
+
+#tracks-wrapper .track-card:hover+.track-card {
+  margin-top: 20px;
+}
+
+#tracks-wrapper .track-card::after {
+  content: counter(count);
+  counter-increment: count;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 0.9em;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--prm-clr-amber-orange);
+  border-radius: 50%;
+  background-color: var(--bg-clr-indigo);
+}
+
+#tracks-wrapper .track-card:hover::after {
+  color: white;
+}
+
+#tracks-wrapper .track-card .img-holder {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  margin-inline: auto;
+}
+
+#tracks-wrapper .track-card .img-holder img {
+  width: 100%;
+  font-size: 0.5em;
+}
+
+#tracks-wrapper .track-card .track-info {
+  margin-top: 20px;
+}
+
+#tracks-wrapper .track-card .track-info .speciality {
+  font-size: 0.9em;
+}
+
+#tracks-wrapper .track-card .track-info .track-title {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#tracks-wrapper .track-card .track-info .track-description {
+  line-height: 1.5;
+  display: none;
+}
+
+#tracks-wrapper .track-card .btn {
+  background: none;
+  background-color: var(--bg-clr-indigo);
+  color: var(--prm-clr-amber-orange);
+}
+
+#tracks-wrapper .track-card .btn:hover {
+  color: white;
+}
+
+@media screen and (min-width: 992px) {
+  section.tracks .container {
+    overflow: hidden;
+  }
+
+  section.tracks .wrapper-container {
+    padding-block: 20px;
+    overflow-x: scroll;
+  }
+
+  #tracks-wrapper {
+    flex-direction: row;
+  }
+
+  #tracks-wrapper .track-card {
+    width: 300px;
+    display: inline-block;
+    box-shadow: -4px 0 10px var(--bg-clr-indigo);
+  }
+
+  #tracks-wrapper .track-card:not(:first-of-type) {
+    margin-top: 0;
+    margin-left: -220px;
+  }
+
+  #tracks-wrapper .track-card:hover+.track-card {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+}
+
+
+/****************  ****************/

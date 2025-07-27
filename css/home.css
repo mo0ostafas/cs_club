@@ -12,6 +12,7 @@ section.hero #gridCanvas {
   left: 0px;
   top: 0px;
   right: 0px;
+  z-index: 888888888;
 }
 
 section.hero .container {
@@ -21,7 +22,7 @@ section.hero .container {
   justify-content: center;
   width: fit-content;
   gap: 20px;
-  z-index: 3;
+  z-index: 888888888;
 }
 
 section.hero .hero-content {
@@ -84,7 +85,7 @@ section.hero .hero-content .cta-btn:hover::before {
 }
 
 section.hero ul.social {
-  z-index: 3;
+  z-index: 888888888;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -140,9 +141,10 @@ section.about .about-txt p {
   line-height: 1.6;
 }
 
-section.about .about-txt a.btn {
+section.about .about-txt .btn-gp {
+  justify-content: flex-start;
+  gap: 20px;
   margin-top: 20px;
-  display: inline-block;
 }
 
 @media screen and (min-width: 768px) {
@@ -222,106 +224,5 @@ section.partnerships .partnerships-preview img:hover {
   section.partnerships .container {
     grid-template-columns: 1fr 1.75fr;
     grid-template-rows: auto;
-  }
-}
-
-
-/**************** testimonials ****************/
-section.testimonials .container h2 {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-section.testimonials .container .slider {
-  display: grid;
-  grid-template-columns: 1fr;
-  flex-wrap: wrap;
-  gap: 40px 25px;
-}
-
-section.testimonials .container .slider .card {
-  padding: 20px 30px;
-  border: 3px dashed var(--bg-clr-indigo);
-  border-radius: 25px;
-  position: relative;
-}
-
-section.testimonials .container .slider .card::after {
-  content: "Read\00a0More";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  background-color: var(--bg-clr-indigo);
-  color: white;
-  padding: 5px 20px;
-  border-radius: 15px;
-  cursor: pointer;
-  font-size: 0.9em;
-}
-
-section.testimonials .container .slider .card:hover {
-  background-color: var(--bg-clr-indigo);
-  color: var(--sec-clr-cool-gray);
-}
-
-section.testimonials .container .slider .card:hover::after {
-  display: none;
-}
-
-section.testimonials .container .slider .card span {
-  display: block;
-  text-align: center;
-}
-
-section.testimonials .container .slider .card span:first-of-type {
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-section.testimonials .container .slider .card:hover span {
-  color: var(--prm-clr-amber-orange);
-}
-
-section.testimonials .container .slider .card q {
-  display: block;
-  margin-top: 20px;
-  line-height: 1.6;
-  transition: max-height 1s ease;
-  overflow: hidden;
-  max-height: 55px;
-}
-
-section.testimonials .container .slider .card:hover q {
-  max-height: 1000px;
-}
-
-section.testimonials .btn-gp {
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-@media screen and (min-width: 992px) {
-  section.testimonials .container .slider {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  section.testimonials .container .slider .card:last-of-type {
-    grid-column: 1 / 3;
-  }
-
-  section.testimonials .container .slider .card span:first-of-type {
-    font-weight: 700;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  section.testimonials .container .slider .card q {
-    margin-top: 30px;
-    font-size: 1.1em;
   }
 }

@@ -4,21 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/imgs/favicon.ico" type="image/x-icon" />
-    <title>Scholars' CS Club | Home</title>
+    <title>Scholars' CS Club | Join</title>
     
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     
-    <!-- icons -->
+    <!-- icons & libs -->
     <link rel="stylesheet" href="./css/all.min.css">
-
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    
     <!-- stylesheets -->
     <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/join.css" />
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./css/testimonials.css">
+    <link rel="stylesheet" href="css/testimonials.css">
 
     <!-- SEO Meta -->
     <meta name="description" content="Scholars' CS Club - A high school tech initiative exploring Web, AI, Cybersecurity & more." />
@@ -34,112 +35,26 @@
   </head>
 
   <body>
-    <!-- header -->
-    <header>
-      <div class="container">
-
-        <!-- logo -->
-        <a class="logo" href="">
-          <img src="./assets/imgs/logo.png" alt="CS Club Logo" />
-          <h1>
-            <span>Scholars'</span>
-            <span>CS Club</span>
-          </h1>
-        </a>
-
-        <!-- Mobile Menu Icon -->
-        <button class="menu-icon" id="openMenu" title="open" type="button">
-          <span></span><span></span><span></span>
-        </button>
-
-        <!-- nav -->
-        <nav class="main-nav">
-
-          <!-- Close Button (Mobile Only) -->
-          <button class="close-icon" id="closeMenu" title="close" type="button">
-            <span></span><span></span>
-          </button>
-
-          <!-- Main Menu Links -->
-          <ul class="main-menu">
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./about.html#team">Team</a></li>
-            <li><a href="./join.html">Tracks</a></li>
-          </ul>
-          
-          <!-- CTA -->
-          <a href="./join.html" class="btn cta">Join Now</a>
-        </nav>
-
-      </div>
-    </header>
-
+    <!-- breadcrumb -->
+    <div class="breadcrumb">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><span>Join</span></li>
+      </ol>
+    </div>
+    
     <!-- main content -->
     <main>
-      <!-- hero -->
-      <section class="hero">
-        <canvas id="gridCanvas"></canvas>
-
+      <section class="tracks">
         <div class="container">
-          <div class="hero-content">
-            <h2>Future Built</h2>
-            <p>Empowering the Next Generation of Innovators in Computer Science.</p>
-            <a href="join.html" class="cta-btn">Join Now</a>
-          </div>
-          
-          <ul class="social">
-            <li>
-              <a href="https://www.facebook.com/people/Scholars-Computer-Science-Club/61566437354933/" target="_blank" rel="noopener">
-                <img src="./assets/icons/Facebook.png" alt="Facebook Icon" width="100" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/scholars-computer-science-club/" target="_blank" rel="noopener">
-                <img src="./assets/icons/LinkedIn.png" alt="LinkedIn Icon" width="100" />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+          <h2>Tracks</h2>
 
-      <!-- about -->
-      <section class="about">
-        <div class="container">
-          <div class="about-img">
-            <img src="https://placehold.co/600x400" alt="Students coding together" />
-          </div>
-
-          <div class="about-txt">
-            <h2>About Us</h2>
-            <p>Scholars' CS Club is a student-led high school community empowering passionate minds to explore Computer Science, build projects, and grow together through collaboration and creativity.</p>
-            <div class="btn-gp">
-              <a href="./about.html" class="btn">Learn More</a>
-              <a href="./join.html" class="btn">Discover Tracks</a>
-            </div>
+          <div class="wrapper-container">
+            <div id="tracks-wrapper"></div>
           </div>
         </div>
       </section>
 
-      <!-- partnerships -->
-      <section class="partnerships">
-        <div class="container">
-          <div class="partnerships-text">
-            <h2>Our Partners</h2>
-            <p>Scholars' CS Club is proudly partnered with <strong>Hack Club</strong>, a global movement that supports student-led coding communities. This partnership helps us provide tools, premium accounts, and unique opportunities to our members.</p>
-            <a href="https://hackclub.com" target="_blank" rel="noopener">
-              <img src="./assets/imgs/hackclub-flag.svg" alt="Hack Club Logo">
-            </a>
-          </div>
-
-          <div class="partnerships-preview">
-            <a href="https://hackclub.com" target="_blank" rel="noopener">
-              <img src="./assets/imgs/hackclub-hero.png" alt="Hack Club" />
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- testimonials -->
       <section class="testimonials" id="testimonials">
         <div class="container">
           <h2>What they say?</h2>
@@ -148,7 +63,7 @@
             <a href="https://forms.gle/onnb4mb5d4AP9MjQA" class="btn" target="_blank" rel="noopener">Submit a Feedback</a>
             <a href="about.html#team" class="btn">Meet the Team</a>
           </div>
-          
+
           <div class="testimonials-slider">
             <div class="swiper">
               <div class="swiper-wrapper" id="testimonials-wrapper"></div>
@@ -208,8 +123,7 @@
     
     <!-- scripts -->
     <script src="./js/all.min.js"></script>
-    <script src="./js/header.js"></script>
-    <script src="./js/canvas.js"></script>
+    <script src="./js/tracks.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/testimonials.js"></script>
     <script src="./js/footer.js"></script>

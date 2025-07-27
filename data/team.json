@@ -1,0 +1,201 @@
+{
+  "members": {
+    "heads": [
+      {
+        "id": "h783425",
+        "name": "Mostafa Okasha",
+        "role": "Co-President",
+        "social": {
+          "facebook": "https://www.facebook.com/mostafa.ali.2382",
+          "linkedin": "https://www.linkedin.com/in/mostafa-okasha-238226244/"
+        }
+      },
+      {
+        "id": "h534894",
+        "name": "Marwan Salem",
+        "role": "Co-President",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h024396",
+        "name": "Hatem Ali",
+        "role": "Vice President",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h424738",
+        "name": "Seba Embaby",
+        "role": "Head of HR",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h403230",
+        "name": "Abdullah Mohamed",
+        "role": "Project Manager",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h346347",
+        "name": "Habiba Ehab",
+        "role": "Co-Head PR",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h043219",
+        "name": "Hedaya Aboalhassan",
+        "role": "Co-Head PR",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h547235",
+        "name": "Rana Sakr",
+        "role": "Vice Head Marketing",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h432031",
+        "name": "Marwan Nabil",
+        "role": "Head of Marketing",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h076834",
+        "name": "Nada Mohammed",
+        "role": "Head of Content Writing",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      }
+    ],
+    "instructors": [
+      {
+        "id": "i047893",
+        "name": "Abdelrahman Tarek",
+        "role": "Fundamentals of Programming",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "i034869",
+        "name": "Ahmed Saber",
+        "role": "Fundamentals of Programming",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "i046949",
+        "name": "Rokaya Mohammad",
+        "role": "Fundamentals of Programming",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "i935654",
+        "name": "Fathy Elghoneimy",
+        "role": "AI",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "i963478",
+        "name": "Mohamed Beder",
+        "role": "AI",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "i924789",
+        "name": "Mohamed Beder",
+        "role": "AI",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "i265464",
+        "name": "Moustafa Yasser",
+        "role": "Web",
+        "social": {
+          "facebook": "https://www.facebook.com/mo0ostafas",
+          "linkedin": "https://www.linkedin.com/in/mo0ostafas",
+          "github": "https://www.github.com/mo0ostafas",
+          "youtube": "https://www.youtube.com/@mo0ostafas"
+        }
+      }
+    ],
+    "mentors": [
+      {
+        "id": "m874643",
+        "name": "",
+        "role": "",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "behance": "https://behance.net/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "m735472",
+        "name": "",
+        "role": "",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "behance": "https://behance.net/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      }
+    ]
+  }
+}

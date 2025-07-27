@@ -5,7 +5,7 @@ const mentors = [];
 
 const getMembers = async () => {
   try {
-    const res = await fetch("db.json");
+    const res = await fetch("data/team.json");
     
     if (!res.ok) {
       throw new Error("Cannot fetch JSON file");
@@ -39,7 +39,7 @@ const renderSlides = (members, wrapperId) => {
     slide.innerHTML = `
       <div class="member-card">
         <div class="member-img swiper-zoom-container">
-          <img src="./assets/imgs/members/${member.img || ''}" alt="${member.name || 'Member'}" loading="lazy" />
+          <img src="./assets/imgs/people/${member.id + '-min.jpg' || ''}" alt="${member.name || 'Member'}" loading="lazy" />
           <div class="swiper-lazy-preloader"></div>
         </div>
         <div class="member-info">
