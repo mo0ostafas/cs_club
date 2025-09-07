@@ -39,8 +39,9 @@ section.hero .hero-content h2 {
 section.hero .hero-content p {
   pointer-events: auto;
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  max-width: 75vw;
   line-height: 1.6;
+  margin: 0 auto 2rem;
 }
 
 section.hero .hero-content .cta-btn {

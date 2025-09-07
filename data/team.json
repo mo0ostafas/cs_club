@@ -183,17 +183,6 @@
         }
       },
       {
-        "id": "i963478",
-        "name": "Mohamed Beder",
-        "role": "AI Instructor",
-        "social": {
-          "facebook": "https://www.facebook.com/",
-          "linkedin": "https://www.linkedin.com/in/",
-          "github": "https://www.github.com/",
-          "youtube": "https://www.youtube.com/"
-        }
-      },
-      {
         "id": "i924789",
         "name": "Mohamed Beder",
         "role": "AI Instructor",
@@ -285,7 +274,7 @@
         }
       },
       {
-        "id": "m654985",
+        "id": "m654984",
         "name": "Mohamed Bashir",
         "role": "Fundamentals of Programming Mentor",
         "social": {
