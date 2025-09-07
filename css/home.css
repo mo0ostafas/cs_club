@@ -3,7 +3,7 @@ section.hero {
   position: relative;
   justify-content: center;
   text-align: center;
-  overflow-x: hidden;
+  overflow: hidden;
   padding-top: 150px;
 }
 

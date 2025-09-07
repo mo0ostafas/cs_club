@@ -4,7 +4,7 @@
       {
         "id": "h783425",
         "name": "Mostafa Okasha",
-        "role": "Co-President",
+        "role": "Founder",
         "social": {
           "facebook": "https://www.facebook.com/mostafa.ali.2382",
           "linkedin": "https://www.linkedin.com/in/mostafa-okasha-238226244/"
@@ -83,6 +83,51 @@
         }
       },
       {
+        "id": "h235968",
+        "name": "Allaa Reda",
+        "role": "Vice Head of HR",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h465648",
+        "name": "Jumana Momen",
+        "role": "Co-Head of PR",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h540765",
+        "name": "Kareem Hesham",
+        "role": "Head Of Graphic Design",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h545679",
+        "name": "Pierre Tamer",
+        "role": "Head of Discord Operations",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
+        "id": "h943554",
+        "name": "Omar Mahmoud",
+        "role": "Head of OC",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/"
+        }
+      },
+      {
         "id": "h076834",
         "name": "Nada Mohammed",
         "role": "Head of Content Writing",
@@ -96,7 +141,7 @@
       {
         "id": "i047893",
         "name": "Abdelrahman Tarek",
-        "role": "Fundamentals of Programming",
+        "role": "Fundamentals of Programming Instructor",
         "social": {
           "facebook": "https://www.facebook.com/",
           "linkedin": "https://www.linkedin.com/in/",
@@ -107,7 +152,7 @@
       {
         "id": "i034869",
         "name": "Ahmed Saber",
-        "role": "Fundamentals of Programming",
+        "role": "Fundamentals of Programming Instructor",
         "social": {
           "facebook": "https://www.facebook.com/",
           "linkedin": "https://www.linkedin.com/in/",
@@ -118,7 +163,7 @@
       {
         "id": "i046949",
         "name": "Rokaya Mohammad",
-        "role": "Fundamentals of Programming",
+        "role": "Fundamentals of Programming Instructor",
         "social": {
           "facebook": "https://www.facebook.com/",
           "linkedin": "https://www.linkedin.com/in/",
@@ -129,7 +174,7 @@
       {
         "id": "i935654",
         "name": "Fathy Elghoneimy",
-        "role": "AI",
+        "role": "AI Instructor",
         "social": {
           "facebook": "https://www.facebook.com/",
           "linkedin": "https://www.linkedin.com/in/",
@@ -140,7 +185,7 @@
       {
         "id": "i963478",
         "name": "Mohamed Beder",
-        "role": "AI",
+        "role": "AI Instructor",
         "social": {
           "facebook": "https://www.facebook.com/",
           "linkedin": "https://www.linkedin.com/in/",
@@ -151,7 +196,7 @@
       {
         "id": "i924789",
         "name": "Mohamed Beder",
-        "role": "AI",
+        "role": "AI Instructor",
         "social": {
           "facebook": "https://www.facebook.com/",
           "linkedin": "https://www.linkedin.com/in/",
@@ -162,10 +207,22 @@
       {
         "id": "i265464",
         "name": "Moustafa Yasser",
-        "role": "Web",
+        "role": "Web Instructor",
         "social": {
           "facebook": "https://www.facebook.com/mo0ostafas",
           "linkedin": "https://www.linkedin.com/in/mo0ostafas",
+          "github": "https://www.github.com/mo0ostafas",
+          "youtube": "https://www.youtube.com/@mo0ostafas"
+        }
+      },
+      {
+        "id": "i356986",
+        "name": "Salma Mohammed",
+        "role": "UI/UX Instructor",
+        "social": {
+          "facebook": "https://www.facebook.com/mo0ostafas",
+          "linkedin": "https://www.linkedin.com/in/mo0ostafas",
+          "behance": "https://behance.net/",
           "github": "https://www.github.com/mo0ostafas",
           "youtube": "https://www.youtube.com/@mo0ostafas"
         }
@@ -173,25 +230,100 @@
     ],
     "mentors": [
       {
-        "id": "m874643",
-        "name": "",
-        "role": "",
+        "id": "m456554",
+        "name": "Ganna Ahmed",
+        "role": "Fundamentals of Programming Mentor",
         "social": {
           "facebook": "https://www.facebook.com/",
           "linkedin": "https://www.linkedin.com/in/",
-          "behance": "https://behance.net/",
           "github": "https://www.github.com/",
           "youtube": "https://www.youtube.com/"
         }
       },
       {
-        "id": "m735472",
-        "name": "",
-        "role": "",
+        "id": "m435687",
+        "name": "Gomana Amr",
+        "role": "Fundamentals of Programming Mentor",
         "social": {
           "facebook": "https://www.facebook.com/",
           "linkedin": "https://www.linkedin.com/in/",
-          "behance": "https://behance.net/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "m435876",
+        "name": "Haneen Ahmed",
+        "role": "Fundamentals of Programming Mentor",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "m445677",
+        "name": "Hatem Ali",
+        "role": "Fundamentals of Programming Mentor",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "m654985",
+        "name": "Mariam Hassan",
+        "role": "Fundamentals of Programming Mentor",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "m654985",
+        "name": "Mohamed Bashir",
+        "role": "Fundamentals of Programming Mentor",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "m609845",
+        "name": "Mohamed Sayed",
+        "role": "Fundamentals of Programming Mentor",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "m985473",
+        "name": "Omar Salah",
+        "role": "Fundamentals of Programming Mentor",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
+          "github": "https://www.github.com/",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      {
+        "id": "m634765",
+        "name": "Retaj Tarek Hasan",
+        "role": "Fundamentals of Programming Mentor",
+        "social": {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/in/",
           "github": "https://www.github.com/",
           "youtube": "https://www.youtube.com/"
         }

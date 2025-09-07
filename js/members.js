@@ -27,6 +27,27 @@ const getMembers = async () => {
 
 getMembers();
 
+// popup references
+const popup = document.getElementById("img-popup");
+const popupImg = document.getElementById("popup-img");
+const popupCaption = document.getElementById("popup-caption");
+const closeBtn = document.querySelector(".img-popup .close");
+
+function openPopup(src, caption) {
+  popup.style.display = "block";
+  popupImg.src = src;
+  popupCaption.textContent = caption;
+}
+
+closeBtn.onclick = () => popup.style.display = "none";
+
+// close on click outside image
+popup.addEventListener("click", e => {
+  if (e.target === popup) {
+    popup.style.display = "none";
+  }
+});
+
 // create swipper slides
 const renderSlides = (members, wrapperId) => {
   const wrapper = document.getElementById(wrapperId);
@@ -39,7 +60,7 @@ const renderSlides = (members, wrapperId) => {
     slide.innerHTML = `
       <div class="member-card">
         <div class="member-img swiper-zoom-container">
-          <img src="./assets/imgs/people/${member.id + '-min.jpg' || ''}" alt="${member.name || 'Member'}" loading="lazy" />
+          <img src="./assets/imgs/people/${member.id + '-min.jpg' || ''}" alt="${member.name || 'Member'}" loading="lazy" class="previewable" />
           <div class="swiper-lazy-preloader"></div>
         </div>
         <div class="member-info">
@@ -58,7 +79,14 @@ const renderSlides = (members, wrapperId) => {
 
     wrapper.appendChild(slide);
   });
+
+  document.querySelectorAll(`#${wrapperId} img.previewable`).forEach(img => {
+    img.addEventListener("click", () => {
+      openPopup(img.src, img.alt);
+    });
+  });
 }
+
 
 // heads swiper
 const headsSwiper = new Swiper('.heads .swiper', {
