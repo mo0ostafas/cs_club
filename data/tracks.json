@@ -2,83 +2,101 @@
   "tracks": [
     {
       "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Hi",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
+      "speciality": "Software Engineering",
+      "name": "Web Development",
+      "desc": "Learn to build modern, responsive, and interactive websites and web applications.",
+      "status": "closed",
+      "more": {
+        "details": "This track takes you from the basics of the web to building complete applications. You’ll begin with HTML, CSS, and JavaScript, then progress to modern frameworks like React for creating dynamic frontends. On the backend, you’ll explore Node.js and databases to handle real-world data. By the end, you’ll be able to design, develop, and deploy fully functional web projects.",
+        "skills": ["HTML", "CSS", "JavaScript", "React", "Backend Basics", "Databases"],
+        "tools": ["VS Code", "GitHub", "Node.js", "Figma for prototyping"],
+        "careers": ["Frontend Developer", "Backend Developer", "Full-Stack Developer"]
+      },
+      "application": "https://docs.google.com/forms/d/e/1FAIpQLSdiWYQ5RIgmVKUryf6t8z17KlKadHHi-FyGx2SIOZ5THIFWlQ/closedform"
     },
     {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
+      "id": "tr459765",
+      "speciality": "Information Security",
+      "name": "Cyber Security",
+      "desc": "Understand how to secure systems, networks, and data from cyber threats.",
+      "status": "closed",
+      "more": {
+        "details": "Cybersecurity is about protecting information in a connected world. This track introduces you to the foundations of network and system security, ethical hacking, and risk management. You’ll learn how attacks happen, how to test systems with penetration testing, and how to secure applications and data. Real-world tools are used to give you hands-on practice, preparing you for careers in defending digital environments.",
+        "skills": ["Network Security", "Penetration Testing", "Encryption", "Risk Assessment"],
+        "tools": ["Wireshark", "Kali Linux", "Metasploit", "Burp Suite"],
+        "careers": ["Security Analyst", "Penetration Tester", "SOC Engineer"]
+      },
+      "application": "https://docs.google.com/forms/d/e/1FAIpQLSdiWYQ5RIgmVKUryf6t8z17KlKadHHi-FyGx2SIOZ5THIFWlQ/closedform"
     },
     {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
+      "id": "tr549856",
+      "speciality": "Data Science",
+      "name": "Artificial Intelligence",
+      "desc": "Explore how machines can learn, reason, and solve problems like humans.",
+      "status": "closed",
+      "more": {
+        "details": "This track introduces you to Artificial Intelligence and its applications in the modern world. You’ll study the basics of machine learning, neural networks, and data processing. Through practical projects, you’ll train models to recognize patterns, make predictions, and solve real-world problems. The track combines coding with problem-solving and will prepare you for deeper study in AI and Data Science.",
+        "skills": ["Python", "Machine Learning", "Neural Networks", "Data Processing"],
+        "tools": ["TensorFlow", "Keras", "Scikit-learn", "Jupyter Notebook"],
+        "careers": ["AI Engineer", "Machine Learning Specialist", "Data Scientist"]
+      },
+      "application": "https://docs.google.com/forms/d/e/1FAIpQLSdiWYQ5RIgmVKUryf6t8z17KlKadHHi-FyGx2SIOZ5THIFWlQ/closedform"
     },
     {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
+      "id": "tr568765",
+      "speciality": "Computer Science",
+      "name": "Programming Essentials",
+      "desc": "Master the basics of coding, logic, and problem-solving using programming languages.",
+      "status": "closed",
+      "more": {
+        "details": "Programming is the foundation of computer science. In this track, you’ll learn the essential building blocks: variables, loops, functions, and object-oriented concepts. You’ll write programs in languages like Python or C++ and develop a strong understanding of logic and problem-solving. This track is ideal for beginners or anyone who wants a solid start in programming before moving on to advanced areas.",
+        "skills": ["Variables", "Control Structures", "Functions", "OOP Basics"],
+        "tools": ["Python", "C++", "Java (basics)", "IDE like PyCharm or VS Code"],
+        "careers": ["Junior Developer", "CS Student", "Problem Solver Foundation"]
+      },
+      "application": "https://docs.google.com/forms/d/e/1FAIpQLSdiWYQ5RIgmVKUryf6t8z17KlKadHHi-FyGx2SIOZ5THIFWlQ/closedform"
     },
     {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
+      "id": "tr564744",
+      "speciality": "Computer Science",
+      "name": "Competitive Programming",
+      "desc": "Sharpen problem-solving and algorithmic thinking for contests and interviews.",
+      "status": "closed",
+      "more": {
+        "details": "Competitive programming is about solving problems quickly and efficiently using algorithms and data structures. This track helps you practice coding challenges, master techniques like dynamic programming and graph algorithms, and prepare for competitions or technical interviews. You’ll use online platforms and work on time-limited problems that strengthen your speed, accuracy, and logical thinking.",
+        "skills": ["Data Structures", "Algorithms", "Dynamic Programming", "Optimization"],
+        "tools": ["C++", "Python", "Online Judges (Codeforces, LeetCode, HackerRank)"],
+        "careers": ["Competitive Programmer", "Software Engineer (Tech Interviews)", "Algorithm Specialist"]
+      },
+      "application": "https://docs.google.com/forms/d/e/1FAIpQLSdiWYQ5RIgmVKUryf6t8z17KlKadHHi-FyGx2SIOZ5THIFWlQ/closedform"
     },
     {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
+      "id": "tr453767",
+      "speciality": "Design",
+      "name": "UI/UX Design",
+      "desc": "Learn to design user-friendly, accessible, and visually appealing interfaces.",
+      "status": "closed",
+      "more": {
+        "details": "This track introduces the art and science of designing digital products that people love to use. You’ll learn how to research users, design wireframes and prototypes, and test ideas to improve usability. The course balances creativity and logic, focusing on both visual design and user experience principles. You’ll use industry-standard tools and build a portfolio of design projects.",
+        "skills": ["Wireframing", "Prototyping", "User Research", "Interaction Design"],
+        "tools": ["Figma", "Adobe XD", "Sketch", "Miro"],
+        "careers": ["UI Designer", "UX Researcher", "Product Designer"]
+      },
+      "application": "https://docs.google.com/forms/d/e/1FAIpQLSdiWYQ5RIgmVKUryf6t8z17KlKadHHi-FyGx2SIOZ5THIFWlQ/closedform"
     },
     {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
-    },
-    {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
-    },
-    {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
-    },
-    {
-      "id": "tr345634",
-      "speciality": "Development",
-      "name": "Fullstack Web Development",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate asperiores fugiat recusandae rerum ipsam nihil voluptatem dolorum repudiandae quos sapiente quo veritatis placeat pariatur cum, non, fuga temporibus velit nam? Laborum facere rem fugit at ipsam sint necessitatibus, earum perspiciatis architecto ipsa? Deserunt molestias dolore eum facilis quibusdam cupiditate natus similique.",
-      "more": "https://drive.google.com/file/d/1cxyoPpjA8gQ__kdQN3fm80BwdKCBoHAf/view?usp=sharing",
-      "application": ""
+      "id": "tr976476",
+      "speciality": "Design",
+      "name": "Graphic Design",
+      "desc": "Create visual content that communicates ideas and engages audiences.",
+      "status": "closed",
+      "more": {
+        "details": "Graphic design is about turning ideas into visuals that inspire and communicate. In this track, you’ll study the principles of layout, typography, and color theory while mastering tools like Photoshop and Illustrator. You’ll work on projects such as posters, branding, and social media graphics. This track is perfect for creative minds who want to build a strong visual communication skill set.",
+        "skills": ["Typography", "Color Theory", "Layout Design", "Branding"],
+        "tools": ["Adobe Photoshop", "Illustrator", "Canva", "InDesign"],
+        "careers": ["Graphic Designer", "Brand Designer", "Creative Specialist"]
+      },
+      "application": "https://docs.google.com/forms/d/e/1FAIpQLSdiWYQ5RIgmVKUryf6t8z17KlKadHHi-FyGx2SIOZ5THIFWlQ/closedform"
     }
   ]
 }

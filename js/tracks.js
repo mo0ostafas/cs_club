@@ -21,6 +21,45 @@ const getTracks = async () => {
 
 getTracks();
 
+
+// open overlay with details
+const openOverlay = (track) => {
+  const overlay = document.getElementById("track-overlay");
+  const details = document.getElementById("overlay-details");
+
+  details.innerHTML = `
+    <h3>${track.name}</h3>
+    <p><strong>Speciality:</strong> ${track.speciality}</p>
+    <p>${track.more.details}</p>
+    
+    <h4>Skills You'll Learn:</h4>
+    <ul>${track.more.skills.map(s => `<li>${s}</li>`).join("")}</ul>
+
+    <h4>Tools:</h4>
+    <ul>${track.more.tools.map(t => `<li>${t}</li>`).join("")}</ul>
+
+    <h4>Career Paths:</h4>
+    <ul>${track.more.careers.map(c => `<li>${c}</li>`).join("")}</ul>
+
+    <a href="${track.status === "open" ? track.application : "#"}" class="btn apply-btn" ${track.status === "open" ? "" : "disabled"} target="_blank">Apply Now</a>
+  `;
+
+  overlay.style.display = "flex";
+};
+
+// close overlay
+const closeOverlay = () => {
+  document.getElementById("track-overlay").style.display = "none";
+};
+
+// attach close event
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("close-btn") || e.target.id === "track-overlay") {
+    closeOverlay();
+  }
+});
+
+
 // create tracks cards
 const renderTracks = (tracks, wrapperId) => {
   const wrapper = document.getElementById(wrapperId);
@@ -32,19 +71,21 @@ const renderTracks = (tracks, wrapperId) => {
     card.style.zIndex = index + 2;
 
     card.innerHTML = `
-      <div class="img-holder">
-        <img src="${track.id + '-min.jpg'}" alt="${track.name}">
-      </div>
       <div class="track-info">
-        <span class="speciality">${track.speciality}</span>
-        <h4 class="track-title">${track.name}</h4>
+        <span class="speciality">${track.speciality || 'Undetermined Speciality'}</span>
+        <h4 class="track-title">${track.name || 'Unknown Course'}</h4>
+        <p class="track-desc">${track.desc}</p>
       </div>
       <div class="btn-gp">
-        <a href="${track.more}" class="btn" target="_blank" rel="noopener">More</a>
-        <a href="${track.application}" class="btn" target="_blank" rel="noopener">Join</a>
+        <button class="btn more-btn">More</button>
+        <a href="${track.status === "open" ? track.application : "#"}" class="btn apply-btn" ${track.status === "open" ? "" : "disabled"} target="_blank">Join</a>
       </div>
     `;
 
+    // bind "More" button
+    card.querySelector(".more-btn").addEventListener("click", () => openOverlay(track));
+
     wrapper.appendChild(card);
   });
-}
+};
+
