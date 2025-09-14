@@ -13,6 +13,7 @@
     
     <!-- icons & libs -->
     <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     
     <!-- stylesheets -->
@@ -47,24 +48,25 @@
     <main>
       <section class="tracks">
         <div class="container">
-          <h2>Tracks</h2>
+          <h2 data-aos="fade-down">Tracks</h2>
 
-          <div class="wrapper-container">
+          <div class="wrapper-container" data-aos="zoom-out">
             <div id="tracks-wrapper"></div>
           </div>
         </div>
       </section>
 
+      <!-- testimonials -->
       <section class="testimonials" id="testimonials">
         <div class="container">
-          <h2>What they say?</h2>
+          <h2 data-aos="fade-down">What they say?</h2>
           
-          <div class="btn-gp">
+          <div class="btn-gp" data-aos="zoom-out-down">
             <a href="https://forms.gle/onnb4mb5d4AP9MjQA" class="btn" target="_blank" rel="noopener">Submit a Feedback</a>
             <a href="about.html#team" class="btn">Meet the Team</a>
           </div>
-
-          <div class="testimonials-slider">
+          
+          <div class="testimonials-slider" data-aos="zoom-out-down">
             <div class="swiper">
               <div class="swiper-wrapper" id="testimonials-wrapper"></div>
             </div>
@@ -84,7 +86,7 @@
     <!-- footer -->
     <footer>
       <div class="container">
-        <div class="col">
+        <div class="col" data-aos="fade-down">
           <div class="logo">
             <img src="./assets/imgs/logo.png" alt="Scholars' CS Club Logo">
             <h2>
@@ -99,7 +101,7 @@
           </form>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-down">
           <h2>Activities</h2>
           <ul class="activities">
             <li><a href="./join.html">Discover All Tracks</a></li>
@@ -108,7 +110,7 @@
           </ul>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-down">
           <h2>Quick Links</h2>
           <ul class="pages">
             <li><a href="./about.html">About Scholars</a></li>
@@ -119,7 +121,7 @@
       </div>
       
       <!-- copyrights -->
-      <p class="copyright">
+      <p class="copyright" data-aos="fade-up" data-aos-offset="10">
         Developed by <span class="developer">&lt;<a href="https://mooostafas.com" target="_blank" rel="noopener">moOostafas</a>/&gt;</span>
         <br />
         All Rights Reserved &copy; <span id="yearRange">2025</span>.
@@ -131,6 +133,14 @@
     
     <!-- scripts -->
     <script src="./js/all.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        delay: 0,
+        duration: 500
+      });
+    </script>
     <script src="./js/tracks.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/testimonials.js"></script>

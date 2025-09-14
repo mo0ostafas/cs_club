@@ -13,6 +13,7 @@
     
     <!-- icons & libs -->
     <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     
     <!-- stylesheets -->
@@ -45,22 +46,22 @@
     <main>
       <section class="about">
         <div class="container">
-          <div>
+          <div data-aos="fade-right">
             <h2>Who we are</h2>
             <p>We're a group of passionate students dedicated to exploring the world of Computer Science. We believe in the power of CS education and strive to build a supportive community where everyone can learn, create, and collaborate!</p>
           </div>
           
-          <div>
+          <div data-aos="fade-right">
             <h2>Our Mission</h2>
             <p>Our mission is to inspire and empower students through hands-on learning and collaborative projects in Computer Science. We aim to foster a space where creativity, innovation, and teamwork thrive, helping each member grow both technically and personally.</p>
           </div>
           
-          <div>
+          <div data-aos="fade-right">
             <h2>Our Vision</h2>
             <p>Our vision is to build a community where every student feels confident and excited about exploring the possibilities of Computer Science. We aspire to spark curiosity, develop future leaders in technology, and make CS education accessible and enjoyable for all.</p>
           </div>
   
-          <div>
+          <div data-aos="fade-right">
             <h2>Philosophy of CS Education</h2>
             <p>We believe that Computer Science is not just about coding, but about fostering problem-solving, critical thinking, and creativity. Our philosophy is rooted in the idea that CS education should be hands-on, collaborative, and inclusive. We aim to make learning accessible to all, encouraging students to explore, experiment, and embrace the challenges that come with innovation. By focusing on both the technical and creative aspects of CS, we prepare students to not only succeed in the field but to shape its future.</p>
           </div>
@@ -69,9 +70,9 @@
 
       <section class="team" id="team">
         <div class="container">
-          <h2>Meet the Team</h2>
+          <h2 data-aos="fade-right">Meet the Team</h2>
           
-          <div class="members heads">
+          <div class="members heads" data-aos="zoom-out">
             <h3>Heads</h3>
             <div class="swiper">
               <div class="swiper-wrapper" id="heads-wrapper"></div>
@@ -81,7 +82,7 @@
             </div>
           </div>
           
-          <div class="members instructors">
+          <div class="members instructors" data-aos="zoom-out" data-aos-offset="120">
             <h3>Instructors</h3>
             <div class="swiper">
               <div class="swiper-wrapper" id="instructors-wrapper"></div>
@@ -91,7 +92,7 @@
             </div>
           </div>
           
-          <div class="members mentors">
+          <div class="members mentors" data-aos="zoom-out" data-aos-offset="120">
             <h3>Mentors</h3>
             <div class="swiper">
               <div class="swiper-wrapper" id="mentors-wrapper"></div>
@@ -114,7 +115,7 @@
     <!-- footer -->
     <footer>
       <div class="container">
-        <div class="col">
+        <div class="col" data-aos="fade-down">
           <div class="logo">
             <img src="./assets/imgs/logo.png" alt="Scholars' CS Club Logo">
             <h2>
@@ -129,16 +130,16 @@
           </form>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-down">
           <h2>Activities</h2>
           <ul class="activities">
-            <li><a href="./join.html" target="_blank" rel="noopener">Discover All Tracks</a></li>
+            <li><a href="./join.html">Discover All Tracks</a></li>
             <li><a href="./soon.html">Certificates <small>(soon)</small></a></li>
             <li><a href="./soon.html">Hackathons <small>(soon)</small></a></li>
           </ul>
         </div>
 
-        <div class="col">
+        <div class="col" data-aos="fade-down">
           <h2>Quick Links</h2>
           <ul class="pages">
             <li><a href="./about.html">About Scholars</a></li>
@@ -149,7 +150,7 @@
       </div>
       
       <!-- copyrights -->
-      <p class="copyright">
+      <p class="copyright" data-aos="fade-up" data-aos-offset="10">
         Developed by <span class="developer">&lt;<a href="https://mooostafas.com" target="_blank" rel="noopener">moOostafas</a>/&gt;</span>
         <br />
         All Rights Reserved &copy; <span id="yearRange">2025</span>.
@@ -161,6 +162,14 @@
     
     <!-- scripts -->
     <script src="./js/all.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        delay: 0,
+        duration: 500
+      });
+    </script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/members.js"></script>
     <script src="./js/footer.js"></script>

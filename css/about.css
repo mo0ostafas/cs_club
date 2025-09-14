@@ -54,6 +54,14 @@ section.team .member-info ul.member-social-accounts {
   gap: 10px;
 }
 
+section.team .member-info ul.member-social-accounts li {
+  transition: transform 0.3s;
+}
+
+section.team .member-info ul.member-social-accounts li:hover {
+  transform: scale(1.1);
+}
+
 section.team .member-info ul.member-social-accounts a {
   color: var(--prm-clr-electric-blue);
 }

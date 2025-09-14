@@ -15,7 +15,7 @@
   --fnt-h-jetbrains: "JetBrains Mono", monospace;
   --fnt-inter: "Inter", sans-serif;
   --fnt-cairo: "Cairo", sans-serif;
-  --overlay: linear-gradient(to top, rgba(var(--bg-clr-indigo-rgb), 0.7), rgba(var(--bg-clr-indigo-rgb), 0.6), rgba(var(--bg-clr-indigo-rgb), 0.5), rgba(var(--bg-clr-indigo-rgb), 0.4), rgba(var(--bg-clr-soft-gray-rgb), 0.3), rgba(var(--bg-clr-soft-gray-rgb), 0.2));
+  --overlay: linear-gradient(to top, rgba(var(--bg-clr-indigo-rgb), 0.7), rgba(var(--bg-clr-indigo-rgb), 0.6), rgba(var(--bg-clr-indigo-rgb), 0.5), rgba(var(--bg-clr-indigo-rgb), 0.4), rgba(var(--bg-clr-indigo-rgb), 0.3), rgba(var(--bg-clr-soft-gray-rgb), 0.2));
   --background-gradient: linear-gradient(to right, var(--prm-clr-amber-orange), #f1f1f1);
 }
 
@@ -58,6 +58,7 @@ body {
   position: relative;
   background-color: var(--bg-clr-soft-gray);
   color: var(--prm-clr-dark-indigo);
+  overflow-x: hidden;
 }
 
 [lang="ar"] {
@@ -95,6 +96,11 @@ button,
   padding: 10px 20px;
   border-radius: 25px;
   cursor: pointer;
+  transition: transform 0.3s;
+}
+
+:is(button, .btn):hover {
+  transform: scale(1.1);
 }
 
 button[disabled],
@@ -419,7 +425,7 @@ header .cta {
     display: flex;
     position: static;
     width: fit-content;
-    background-color: transparent;
+    background: transparent;
     padding: 0;
   }
 
@@ -451,7 +457,7 @@ header .cta {
 /**************** breadcrumb ****************/
 .breadcrumb {
   height: 250px;
-  background: var(--overlay), url();
+  background: var(--overlay), url(../assets/imgs/breadcrumb.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
